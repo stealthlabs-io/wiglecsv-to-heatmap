@@ -5,9 +5,7 @@ coordinates and signal strength (RSSI).
 
 ## Install
 ```bash
-git clone https://xxxx
-cd wigleheatmap
-pipx install .
+pipx install git+https://github.com/stealthlabs-io/wiglecsv-to-heatmap.git
 ```
 
 ## Usage
@@ -20,3 +18,4 @@ wigle-heatmap -c kismet.wiglecsv -s ssid,to,filter -o client.html
 - `-c, --csv`: Path to WiGLE CSV file
 - `-s, --ssid`: Comma-separated list of SSIDs to filter
 - `-o, --output`: Output HTML file path
+
